@@ -9,7 +9,9 @@ const App = () => {
 
     return (
         <Provider store={store}>
-            <CellList />
+            <div>
+                <CellList />
+            </div>
         </Provider>
     )
 };
